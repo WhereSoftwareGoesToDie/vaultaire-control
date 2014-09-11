@@ -9,7 +9,7 @@ module Vaultaire.Control.Lift
      ( In(..) )
 where
 
-import           Control.Monad.Trans
+import           Control.Monad.Trans.Class
 
 -- | Constraint a transformer stack @haystack@ to have a transformer @needle@ anywhere in the stack.
 --   This relies on @OverlappingInstances@ to find the position of @needle@ in @haystack@,

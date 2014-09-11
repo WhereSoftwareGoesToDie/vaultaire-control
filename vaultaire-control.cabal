@@ -13,10 +13,8 @@ library
                        Vaultaire.Control.Lift
 
   build-depends:       base >=4.7 && <4.8,
-                       mtl >=2.1 && <2.2,
-                       transformers >=0.3 && <0.4,
-                       text >=1.1 && <1.2,
-                       network >=2.5 && <2.6,
+                       mtl,
+                       transformers,
                        errors,
                        either,
                        pipes

@@ -5,7 +5,7 @@
     #-}
 
 module Vaultaire.Control.Safe
-     ( safeLiftIO, bracketSafe, runSafeIO )
+     ( MonadSafeIO, safeLiftIO, bracketSafe, runSafeIO, runSafeIO' )
 where
 
 import           Control.Error.Util         (syncIO)
