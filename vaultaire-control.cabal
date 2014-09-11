@@ -1,0 +1,26 @@
+name:                vaultaire-control
+version:             0.1.0.0
+license:             MIT
+license-file:        LICENSE
+author:              Tran Ma
+maintainer:          tran@defma.in
+category:            Control
+build-type:          Simple
+cabal-version:       >=1.10
+
+library
+  exposed-modules:     Vaultaire.Control.Safe
+                       Vaultaire.Control.Lift
+
+  build-depends:       base >=4.7 && <4.8,
+                       mtl >=2.1 && <2.2,
+                       transformers >=0.3 && <0.4,
+                       text >=1.1 && <1.2,
+                       network >=2.5 && <2.6,
+                       errors,
+                       either,
+                       pipes
+
+  hs-source-dirs:      lib 
+
+  default-language:    Haskell2010
